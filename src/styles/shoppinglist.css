@@ -1,0 +1,39 @@
+.plant-list-container {
+  width: 100%;
+}
+.plant-list {
+  list-style-type: none;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+}
+
+.plant-list-card {
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 0 1rem 1rem 0;
+  padding: 0;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  display: flex;
+  margin: 0 0.2rem 0.2rem 0;
+  align-items: center;
+  border: 1px solid#31b572;
+  border-radius: 16px;
+  background-color: #31b572;
+  cursor: pointer;
+}
+.btn-icon {
+  color: white;
+}
+
+.btn:hover {
+  background-color: #27915c;
+}

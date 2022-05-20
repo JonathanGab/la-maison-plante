@@ -1,0 +1,36 @@
+.lmj-cart {
+  padding: 32px;
+
+  color: white;
+  background-color: #31b572;
+}
+.lmj-button-cart {
+  display: flex;
+  align-items: flex-end;
+  background: none;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  align-self: self-start;
+  padding: 0;
+  color: white;
+}
+.lmj-cart-content {
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0;
+}
+.lmj-cart-closed {
+  padding: 32px;
+  background-color: #31b572;
+}
+.lmj-cart-img {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  padding-right: 1rem;
+  border-radius: 50%;
+}
+.lmj-cart-closed > button {
+  color: white;
+}
